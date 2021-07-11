@@ -70,20 +70,4 @@ public class EmployeeController {
         return employeeService.deleteEmployee(id);
     }
 
-
-
-//    @PostMapping("/tutorials")
-//    public ResponseEntity<Tutorial> createTutorial(@RequestBody Tutorial tutorial) {
-//
-//    }
-//
-//    @PutMapping("/tutorials/{id}")
-//    public ResponseEntity<Tutorial> updateTutorial(@PathVariable("id") String id, @RequestBody Tutorial tutorial) {
-//
-//    }
-//
-//    @DeleteMapping("/tutorials/{id}")
-//    public ResponseEntity<HttpStatus> deleteTutorial(@PathVariable("id") String id) {
-//
-//    }
 }

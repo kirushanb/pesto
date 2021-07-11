@@ -64,7 +64,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/Kirushan-Balakrishnan/pesto/tree/main/nWeather)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://github.com/Kirushan-Balakrishnan/pesto/tree/main/nWeather) -->
+ <a href="https://github.com/Kirushan-Balakrishnan/pesto/tree/main/nWeather">
+    <img src="assets/IMG_0174.PNG" height="600">
+  </a>
 
 When you hit the app, it will tell you where you are and how's the weather of your location is!
 Your Interior Weatherman!

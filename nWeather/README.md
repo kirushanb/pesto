@@ -114,4 +114,4 @@ Learn once, write anywhere.
 [license-url]: https://github.com/Kirushan-Balakrishnan/pesto/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kirushan-balakrishnan-5a298317a
-[product-screenshot]: assets/logo.png
+[product-screenshot]: assets/IMG_0174.PNG

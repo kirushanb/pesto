@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 @RestController
 @RequestMapping("/employee")
 public class EmployeeController {

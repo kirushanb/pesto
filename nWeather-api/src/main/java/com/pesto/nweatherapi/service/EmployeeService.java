@@ -145,7 +145,6 @@ public class EmployeeService {
 
     public List<Employee> editEmployee(String id, Employee employee) throws ParseException {
         List<Employee> employeeList = getAllEmployees();
-//        Employee employee=employeeList.stream().filter(n->n.getId().equals(id)).findAny().get();
         List<Employee> employeeListFiltered=employeeList.stream().filter(n-> !n.getId().equals(id)).collect(Collectors.toList());
         employeeListFiltered.add(employee);
         return employeeListFiltered;
@@ -153,9 +152,7 @@ public class EmployeeService {
 
     public List<Employee> deleteEmployee(String id) throws ParseException {
         List<Employee> employeeList = getAllEmployees();
-//        Employee employee=employeeList.stream().filter(n->n.getId().equals(id)).findAny().get();
         List<Employee> employeeListFiltered=employeeList.stream().filter(n-> !n.getId().equals(id)).collect(Collectors.toList());
-
         return employeeListFiltered;
     }
 
